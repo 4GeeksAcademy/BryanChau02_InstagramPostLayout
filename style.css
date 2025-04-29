@@ -1,0 +1,43 @@
+*{
+    border: 1px;
+}
+body{
+    background: black;
+    height: 700px;
+}
+.whole{
+    width: 450px;
+    height: 580px;
+    margin: auto;
+    background: white;
+}
+.Top{
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+    margin-right: 8px;
+    gap: 6px;
+}
+.Top h5{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    padding: 8px;
+    padding-bottom: 0;
+    margin-right: 10px;
+    gap: 8px;
+}
+.icons .fa-bookmark{
+    margin-left: auto;
+}
+.Top .fa-ellipsis-vertical{
+    margin-left: auto;
+}
+.description{
+    padding: 8px;
+    padding-bottom: 8px;
+}
+.Top h5 .username{
+    font-weight: normal;
+}
